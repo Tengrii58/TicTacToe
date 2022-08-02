@@ -19,6 +19,25 @@ class ttt:
             return True
         else:
             return False
+        
+    def winner(self, player):
+        win = none
+        n = len(board)
+        
+        #This will check the columns
+        for i in range (n)
+            win = True
+            for j in range(n):
+                if board[i][j] != player
+                    win = false
+                    break
+        if win:
+            return win
+        
+        #Rows
+
+
+        #Diagonal
 
     def mark(self,row,clm,player):
         self.board[row][clm] = player
