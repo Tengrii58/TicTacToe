@@ -25,6 +25,7 @@ class ttt:
         n = len(board)
         
         #This will check the columns
+        
         for i in range (n)
             win = True
             for j in range(n):
