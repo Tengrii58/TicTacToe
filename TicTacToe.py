@@ -26,7 +26,7 @@ class ttt:
         
         #This will check the columns
         
-        for i in range (n)
+        for i in range(n):
             win = True
             for j in range(n):
                 if board[i][j] != player
